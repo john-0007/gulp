@@ -16012,11 +16012,11 @@ var _moment2 = _interopRequireDefault(_moment);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-(0, _jquery2.default)("#btn").click(function () {
-  alert("Here we go");
-  console.log("here we go");
-  console.log("here we go");
-});
+// $("#btn").click(()=>{
+//   alert("Here we go");
+//   console.log("here we go")
+//   console.log("here we go")
+// });
 
 var datetime = null,
     date = null,
@@ -16069,7 +16069,7 @@ var update = function update() {
   'color': '#009245'
 });
 (0, _jquery2.default)("td:nth-child(1)").css({
-  'textAlign': 'left',
+  // 'textAlign': 'left',
   "padding-left": "25px"
 });
 // Table Show hide

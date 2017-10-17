@@ -2,10 +2,9 @@
 .header{
   display: flex;
   justify-content: space-between;
-  margin: 1rem 3rem;
 }
 .down-arrow{
-color: #939598;
+color: $mainGray;
 }
 .down-arrow{
   vertical-align: middle;
@@ -14,10 +13,28 @@ color: #939598;
 }
 .login{
   position: relative;
-  color: #939598;
-  font-size: 1.3rem;
+  color:$mainGray;
+  font-size: 1.1rem;
   margin-top: .5rem;
+  @mixin atSmall{
+    font-size: 1.3rem;
+  }
 }
+.logo{
+  margin-top: .4rem;
+  margin-left: -.3rem;
+  img{
+    width: 70%;
+    @mixin atSmall{
+      width: 80%;
+    }
+    @mixin atMedium{
+      width: 90%;
+    }
+  }
+
+}
+
 
 .login-option{
   position: absolute;

@@ -1,5 +1,4 @@
 /*HISTORY SECTION*/
-@mixin atMedium{
 .history{
  background-color: #000;
  margin-top: -25px;
@@ -22,8 +21,6 @@
 
 .table-container {
     height: 10em;
-}
-
 }
 table {
     border-collapse: collapse;
@@ -75,4 +72,4 @@ table td{
   border-radius: 7px;
   vertical-align: middle;
 }
-}
+

@@ -3,19 +3,54 @@
   background-color: #0D0017;
   display: flex;
   margin-bottom: 0;
+  flex-direction: column;
+  flex-wrap: wrap;
+  @mixin atLarge{
+    flex-direction: row;
+  }
 }
 .matadata{
-  margin:1.5rem 1.5rem 1.5rem 2.5rem;
+  @mixin atLarge{
+    flex: 2;
+    margin:1.5rem 20px;
+    padding: 0 2rem;
+  }
 }
 
-.datetime{
-  flex: 1;
+.live-display-datetime{
+  @mixin atSmall{
+    display: flex;
+  }
 }
 
+.display{
+  text-align: center;
+  margin-top: 16px;
+  @mixin atSmall{
+    display: flex;
+    justify-content: space-around;
+  }
+  @mixin atLarge{
+    display: block;
+    margin-top: -35px;
+    margin-left: 30px;
+  }
+  
+}
+.display-datetime{
+  @mixin atSmall{
+    margin-top:5rem;
+    margin-left: 2.5rem
+  } 
+}
 .matadata{
   display: flex;
   flex-wrap: wrap;
-  flex:3
+  justify-content: space-around;
+  @mixin atLarge{
+    width: 100px;
+    padding: 0 20px;
+  }
 }
 
 .box{
@@ -24,10 +59,17 @@
   line-height: 0;
   width: 166px;
   padding: .5rem 0 0 0;
-  margin-right: .8rem;
   margin-bottom: 10px;
   color: white;
   text-align: center;
+  p{
+    font-style: italic;
+    font-weight: 100;
+  }
+  @mixin atLarge{
+    margin-right: .6rem;
+    width: 190px;
+  }
 }
 .box p{
   margin: .6rem;
@@ -59,10 +101,12 @@
 }
 #datetime{
   color: #fff;
+  
 }
 #time{
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.8rem;
+  font-weight: bold;
 }
 .live-display-datetime{
   margin-top: 2rem;

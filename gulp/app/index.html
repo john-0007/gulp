@@ -8,109 +8,113 @@
   <title>Document</title>
 </head>
 <body>
-  <header class="header">
-    <div class="logo">
-      <img src="./assets/images/logo.png" alt="logo image">
-    </div>
-    <div class="login">
-      Exchange
-      <span class="down-arrow">&#x25BC;</span>
-      <div class="login-option">Logout</div>
-    </div>
-  </header>
-  <nav class="nav">
-    <div class="nav-container">
-      <div class="sologan">
-        <h5 class="sologan-title">Water Center</h5>
-        <p class="sologan-text">for Cooling Water Treatment</p>
+  <div class="wrapper">
+    <header class="header">
+      <div class="logo">
+        <img src="./assets/images/logo.png" alt="logo image">
       </div>
-      <div class="tabs">
-        <h4 class="tab-1">System</h4>
-        <h4 class="tab-2">setting</h4>
+      <div class="login">
+        Exchange
+        <span class="down-arrow">&#x25BC;</span>
+        <div class="login-option">Logout</div>
       </div>
-      <div class="operation">
-        <p class="operation-text">system status:</p>
-        <button class="operation-btn switch">RUN</button>
-      </div>
-    </div>
-  </nav>
-  <div class="live-display">
-    <div class="live-display-datetime">
-      <div id="datetime"> </div>
-      <div id="time"></div>
-      <div>
-        <img class="cooler-img" src="./assets/images/ct-on.gif" alt="air-cooler images">
-      </div>
-    </div>
-    <div class="matadata">
-      <div class="box">
-        <img src="./assets/images/icon01.png" alt="icon img">
-        <h6>pH</h6>
-        <p>Read</p>
-        <button class="box-btn">8.4</button>
-        <p>pH</p>
-      </div>
-      <div class="box">
-        <img src="./assets/images/icon01.png" alt="icon img">
-        <h6>ORP</h6>
-        <p>Read</p>
-        <button class="box-btn">8.4</button>
-        <p>mV.</p>
-      </div>
-      <div class="box">
-        <img src="./assets/images/icon01.png" alt="icon img">
-        <h6>Biocide</h6>
-        <p>Read</p>
-        <button class="box-btn">8.4</button>
-        <p>ppm</p>
-      </div>
-      <div class="box">
-        <img src="./assets/images/icon01.png" alt="icon img">
-        <h6>Pressure</h6>
-        <p>Read</p>
-        <button class="box-btn">8.4</button>
-        <p>Bar</p>
-      </div>
-      <div class="box">
-        <img src="./assets/images/icon01.png" alt="icon img">
-        <h6>Conductivity</h6>
-        <p>uSlcm</p>
-        <button class="box-btn">8.4</button>
-        <p>pH</p>
-      </div>
-      <div class="box">
-        <img src="./assets/images/icon01.png" alt="icon img">
-        <h6>water Meter Drain</h6>
-        <p>Read</p>
-        <button class="box-btn">8.4</button>
-        <p>flowrate m3lh</p>
-      </div>
-      <div class="box">
-        <img src="./assets/images/icon01.png" alt="icon img">
-        <h6>Circulation Pump</h6>
-        <p>Status:</p>
-        <button class="box-btn-status">Run</button>
-      </div>
-      <div class="box">
-        <img src="./assets/images/icon01.png" alt="icon img">
-        <h6>Draining Value</h6>
-        <p>status:</p>
-        <button class="box-btn-status">open</button>
-      </div>
-      <div class="box">
-        <img src="./assets/images/icon01.png" alt="icon img">
-        <h6>Biocide Dosing Pump</h6>
-        <p>Status:</p>
-        <button class="box-btn-status">Run</button>
-      </div>
-      <div class="box">
-        <img src="./assets/images/icon01.png" alt="icon img">
-        <h6>IO/DE</h6>
-        <p>Status:</p>
-        <button class="box-btn-status">Run</button>
-      </div>
-    </div>
+    </header>
   </div>
+    <nav class="nav">
+      <div class="wrapper">
+        <div class="sologan">
+          Water Center <br>
+          <span>for Cooling Water Treatment</span>
+        </div>
+        <div class="nav-content">
+          <h4 class="tab-1">System</h4>
+          <h4 class="tab-2">setting</h4>
+          <div class="operation">
+            <p class="operation-text">System Status:</p>
+            <button class="operation-btn switch">RUN</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="live-display">
+        <div class="display">
+          <div class="display-datetime">
+            <div id="datetime"> </div>
+            <div id="time"></div>
+          </div>
+          <div class="display-img">
+            <img src="./assets/images/ct-on.gif" alt="air-cooler images">
+          </div>
+        </div> 
+        <div class="matadata">
+          <div class="box">
+            <img src="./assets/images/icon01.png" alt="icon img">
+            <h6>pH</h6>
+            <p>Read</p>
+            <button class="box-btn">8.4</button>
+            <p>pH</p>
+          </div>
+          <div class="box">
+            <img src="./assets/images/icon01.png" alt="icon img">
+            <h6>ORP</h6>
+            <p>Read</p>
+            <button class="box-btn">8.4</button>
+            <p>mV.</p>
+          </div>
+          <div class="box">
+            <img src="./assets/images/icon01.png" alt="icon img">
+            <h6>Biocide</h6>
+            <p>Read</p>
+            <button class="box-btn">8.4</button>
+            <p>ppm</p>
+          </div>
+          <div class="box">
+            <img src="./assets/images/icon01.png" alt="icon img">
+            <h6>Pressure</h6>
+            <p>Read</p>
+            <button class="box-btn">8.4</button>
+            <p>Bar</p>
+          </div>
+          <div class="box">
+            <img src="./assets/images/icon01.png" alt="icon img">
+            <h6>Conductivity</h6>
+            <p>uSlcm</p>
+            <button class="box-btn">8.4</button>
+            <p>pH</p>
+          </div>
+          <div class="box">
+            <img src="./assets/images/icon01.png" alt="icon img">
+            <h6>water Meter Drain</h6>
+            <p>Read</p>
+            <button class="box-btn">8.4</button>
+            <p>flowrate m3lh</p>
+          </div>
+          <div class="box">
+            <img src="./assets/images/icon01.png" alt="icon img">
+            <h6>Circulation Pump</h6>
+            <p>Status:</p>
+            <button class="box-btn-status">Run</button>
+          </div>
+          <div class="box">
+            <img src="./assets/images/icon01.png" alt="icon img">
+            <h6>Draining Value</h6>
+            <p>status:</p>
+            <button class="box-btn-status">open</button>
+          </div>
+          <div class="box">
+            <img src="./assets/images/icon01.png" alt="icon img">
+            <h6>Biocide Dosing Pump</h6>
+            <p>Status:</p>
+            <button class="box-btn-status">Run</button>
+          </div>
+          <div class="box">
+            <img src="./assets/images/icon01.png" alt="icon img">
+            <h6>IO/DE</h6>
+            <p>Status:</p>
+            <button class="box-btn-status">Run</button>
+          </div>
+        </div>
+    </div>
   <div class="history">
     <div class="history-container">
       <div class="history-heading">

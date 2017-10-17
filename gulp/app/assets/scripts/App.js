@@ -1,11 +1,11 @@
 import $ from "jquery";
 import moment from "moment";
 
-$("#btn").click(()=>{
-  alert("Here we go");
-  console.log("here we go")
-  console.log("here we go")
-});
+// $("#btn").click(()=>{
+//   alert("Here we go");
+//   console.log("here we go")
+//   console.log("here we go")
+// });
 
 var datetime = null,
         date = null,
@@ -67,7 +67,7 @@ $("tbody tr:first-child td").css(
 );
 $("td:nth-child(1)").css(
   {
-    'textAlign': 'left',
+    // 'textAlign': 'left',
     "padding-left" : "25px"
   }
 );
