@@ -1,0 +1,31 @@
+/*HEADER*/
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 3rem;
+}
+.down-arrow{
+color: #939598;
+}
+.down-arrow{
+  vertical-align: middle;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.login{
+  position: relative;
+  color: #939598;
+  font-size: 1.3rem;
+  margin-top: .5rem;
+}
+
+.login-option{
+  position: absolute;
+  color: #000;
+  top: 22px;
+  right: 3px;
+  border: 1px solid gray;
+  padding: .5rem 1.7rem;
+  background-color: #fff;
+  display:none;
+}
